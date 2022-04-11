@@ -1,5 +1,8 @@
 import pyfiglet
 import datetime
+from tqdm import tqdm
+from time import sleep
+import pandas as pd
 from termcolor import colored
 from simple_term_menu import TerminalMenu
 from utils.tasks import tasks
@@ -22,14 +25,16 @@ def run():
     fig = pyfiglet.Figlet()
     print(colored(fig.renderText(helloMsg), "magenta"))
 
+    taskList = pd.read_csv("utils/data/tasks.csv")
+    
     stopCode = True
     while stopCode:
-        menuOptions = ["View Today's Tasks", "Add a Task", "Upcoming Tasks", "Quit"]
+        menuOptions = ["View All Tasks", "Add a Task", "Upcoming Tasks", "Quit"]
         menu = TerminalMenu(menuOptions)
         entry = menu.show()
 
         if entry == 0:
-            tasks.showTasks()
+            tasks.showTasks(taskList)
         if entry == 1:
             tasks.taskEntry()
         if entry == 2:
