@@ -36,12 +36,12 @@ def run():
         if entry == 0:
             tasks.showTasks(taskList)
         if entry == 1:
-            tasks.taskEntry()
+            taskList = tasks.taskEntry(taskList)
         if entry == 2:
             tasks.showUpcoming()
         if entry == 3:
             print("Saving Data...")
-            archiveFiles.uploadTasks()
+            archiveFiles.uploadTasks(taskList)
             stopCode = False
 
 
