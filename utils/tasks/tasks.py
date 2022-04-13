@@ -54,9 +54,13 @@ def taskEntry(taskList):
 def showTasks(taskList):
     taskList.columns = taskList.columns.str.strip()
     taskList['Due Date'] = to_datetime(taskList['Due Date'])
-    taskList = taskList.sort_values(by='Due Date')
-    print('\nShowing tasks in order of due date....\n')
-    print(taskList)
+    taskList = taskList.sort_values(by=['Complete','Due Date'])
+    print('\nShowing tasks in order of due date (Green = Complete, Cyan = IP)\n')
+    t = taskList[taskList.Complete == False]
+    print(colored(t,"cyan"))
+    print()
+    t1 = taskList[taskList.Complete == True]
+    print(colored(t1,"green"))
     print('\n')
     
 
@@ -84,7 +88,7 @@ def markComplete(taskList):
         if t["ID"][i] == id:
             t["Complete"][i] = True
 
-    print(t)
+    # print(t)
 
     return DataFrame(t)
     

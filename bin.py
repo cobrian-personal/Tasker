@@ -29,7 +29,9 @@ def run():
     
     stopCode = True
     while stopCode:
-        menuOptions = ["View All Tasks", "Add a Task", "Upcoming Tasks", "Mark Task Complete", "Quit"]
+        menuOptions = ["View All Tasks", "Add a Task", "Upcoming Tasks #TODO", "Mark Task Complete", "Quit"]
+
+        #### TODO Edit Tasks, Goal Tracker, To do list, 
         menu = TerminalMenu(menuOptions)
         entry = menu.show()
 
