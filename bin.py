@@ -29,7 +29,7 @@ def run():
     
     stopCode = True
     while stopCode:
-        menuOptions = ["View All Tasks", "Add a Task", "Upcoming Tasks", "Quit"]
+        menuOptions = ["View All Tasks", "Add a Task", "Upcoming Tasks", "Mark Task Complete", "Quit"]
         menu = TerminalMenu(menuOptions)
         entry = menu.show()
 
@@ -40,6 +40,8 @@ def run():
         if entry == 2:
             tasks.showUpcoming()
         if entry == 3:
+            taskList = tasks.markComplete(taskList)
+        if entry == 4:
             print("Saving Data...")
             archiveFiles.uploadTasks(taskList)
             stopCode = False

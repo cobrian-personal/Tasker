@@ -1,6 +1,8 @@
 from pandas import *
 from simple_term_menu import TerminalMenu
 import datetime
+from termcolor import colored
+
 
 
 def taskEntry(taskList):    
@@ -60,3 +62,30 @@ def showTasks(taskList):
 
 def showUpcoming():
     print("Upcoming")
+
+def markComplete(taskList):
+    print()
+    print("Tasks that are incomplete: \n")
+    options =["Back"]
+    t = taskList.to_dict('list')
+    count = 0
+    for i in t["Task Name"]:
+        if t["Complete"][count] == False:
+            options = [str(t["ID"][count]) + " : " + i + " : " + t["Label"][count]] + options
+        count+=1    
+    menu = TerminalMenu(options)
+    entry = menu.show()
+
+    if entry == len(options) -1:
+        return taskList
+
+    id = int(options[entry].split(" : ")[0].strip())
+    for i in range(len(t["ID"])):
+        if t["ID"][i] == id:
+            t["Complete"][i] = True
+
+    print(t)
+
+    return DataFrame(t)
+    
+
