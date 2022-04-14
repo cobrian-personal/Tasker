@@ -10,3 +10,9 @@ ID,Task Name,Due Date,Notes,Label,Created,Complete
 9,Investigate Walmart Sync Failure,2022-04-13,None,Work,04/13/22,True
 10,Investigate Weathorford Task Timing,2022-04-13,Third sync not running?,Work,04/13/22,True
 11,Put in Time,2022-04-13,Quickbooks,Work,04/13/22,True
+12,Fix Walmart Sync,2022-04-14,Failing on job creation,Work,04/14/22,False
+13,Look into Walmart candidate upload scripts,2022-04-14,Candidates that are internal but not marked as such need to be marked,Work,04/14/22,False
+14,Fix job upload to have missing fields,2022-04-14,"Position type, dept, dept id",Work,04/14/22,False
+15,Figure out APIs w/ peter,2022-04-14,None,Work,04/14/22,True
+16,Make Candidates 'New',2022-04-14,Walmart cand. need to go in as new,Work,04/14/22,True
+17,Add carolyn to email list,2022-04-14,Jon message,Work,04/14/22,False
