@@ -8,6 +8,9 @@ from simple_term_menu import TerminalMenu
 from utils.tasks import tasks
 from utils.data import archiveFiles
 
+import warnings
+warnings.filterwarnings("ignore")
+
 
 """
 This will be the main running file for my personal task management software
@@ -20,16 +23,21 @@ def run():
     date = datetime.date.today()
     d2 = date.strftime("%B %d, %Y")
     
-    helloMsg = "Welcome to the software. Today is " + d2
-
+    helloMsg = "Welcome to Tasker. Today is " + d2
     fig = pyfiglet.Figlet()
     print(colored(fig.renderText(helloMsg), "magenta"))
+
+    print("                          ", end="")
+    print(colored("Prepare for optimal productivity.", "grey", "on_white"))
+    print()
+    print("==================================================================================================================================")
+    print()
 
     taskList = pd.read_csv("utils/data/tasks.csv")
     
     stopCode = True
     while stopCode:
-        menuOptions = ["View All Tasks", "Add a Task", "Upcoming Tasks #TODO", "Mark Task Complete", "Quit"]
+        menuOptions = ["View All Tasks", "Add a Task", "Tasks Due Today", "Mark Task Complete", "Quit"]
 
         #### TODO Edit Tasks, Goal Tracker, To do list, 
         menu = TerminalMenu(menuOptions)
@@ -40,7 +48,7 @@ def run():
         if entry == 1:
             taskList = tasks.taskEntry(taskList)
         if entry == 2:
-            tasks.showUpcoming()
+            tasks.showUpcoming(taskList)
         if entry == 3:
             taskList = tasks.markComplete(taskList)
         if entry == 4:

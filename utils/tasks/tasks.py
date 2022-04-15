@@ -20,6 +20,9 @@ def taskEntry(taskList):
         date = datetime.datetime(int(x[2]),int(x[0]),int(x[1]))
         date = date.strftime("%m/%d/%y")
     elif entry==2:
+        print()
+        print("==================================================================================================================================")
+        print()
         return taskList
     
     title = input("Give the task a name: ")
@@ -47,6 +50,8 @@ def taskEntry(taskList):
     taskList = taskList.append(newFrame, ignore_index = True)
 
     print()
+    print("==================================================================================================================================")
+    print()
 
     return taskList
 
@@ -56,16 +61,25 @@ def showTasks(taskList):
     taskList['Due Date'] = to_datetime(taskList['Due Date'])
     taskList = taskList.sort_values(by=['Complete','Due Date'])
     print('\nShowing tasks in order of due date (Green = Complete, Cyan = IP)\n')
-    t = taskList[taskList.Complete == False]
+    t = taskList[taskList.Complete == False].filter(items=["Task Name", "Due Date", "Label", "Notes"])
     print(colored(t,"cyan"))
     print()
-    t1 = taskList[taskList.Complete == True]
+    t1 = taskList[taskList.Complete == True].filter(items=["Task Name", "Due Date", "Label", "Notes"])
     print(colored(t1,"green"))
-    print('\n')
+    print()
+    print("==================================================================================================================================")
+    print()
     
-
-def showUpcoming():
-    print("Upcoming")
+def showUpcoming(taskList):
+    today = datetime.date.today().strftime("%Y-%m-%d")
+    t2 = taskList[taskList["Due Date"] == today][taskList.Complete==False].filter(items=["Task Name", "Due Date", "Label", "Notes"])
+    print(colored(t2,"yellow"))
+    print()
+    t3 = taskList[taskList["Due Date"] == today][taskList.Complete==True].filter(items=["Task Name", "Due Date", "Label", "Notes"])
+    print(colored(t3,"green"))
+    print()
+    print("==================================================================================================================================")
+    print()
 
 def markComplete(taskList):
     print()
@@ -89,6 +103,9 @@ def markComplete(taskList):
             t["Complete"][i] = True
 
     # print(t)
+    print()
+    print("==================================================================================================================================")
+    print()
 
     return DataFrame(t)
     
