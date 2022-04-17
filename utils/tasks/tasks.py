@@ -86,7 +86,7 @@ def showTasks(taskList):
     t = taskListtemp[taskListtemp.Complete == False].filter(items=["Task Name", "Due Date", "Label", "Notes","Complete"])
     ta = t[(t["Due Date"] < datetime.datetime.today()-datetime.timedelta(days=1)) & (t.Complete == False)]
     Overdue = ta.filter(items=["Task Name", "Due Date", "Label", "Notes"])
-    IPonTime = t[t["Due Date"] >= datetime.datetime.today()].filter(items=["Task Name", "Due Date", "Label", "Notes"])
+    IPonTime = t[t["Due Date"] >= datetime.datetime.today()-datetime.timedelta(days=1)].filter(items=["Task Name", "Due Date", "Label", "Notes"])
     print(colored(Overdue,"red"))
     print()
     print()
