@@ -11,6 +11,9 @@ from utils.data import archiveFiles
 import warnings
 warnings.filterwarnings("ignore")
 
+import os
+os.system('cls' if os.name == 'nt' else 'clear')
+
 
 """
 This will be the main running file for my personal task management software
