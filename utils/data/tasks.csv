@@ -1,5 +1,5 @@
 ID,Task Name,Due Date,Notes,Label,Created,Complete
-1,Discussion 6.1 MBA,2022-04-17,None,Schoolwork,4/12/2022,False
+1,Discussion 6.1 MBA,2022-04-17,None,Schoolwork,4/12/2022,True
 2,Discussion 6.2 MBA,2022-04-17,None,Schoolwork,4/12/2022,False
 3,Discussion 6.3 MBA,2022-04-17,None,Schoolwork,4/12/2022,False
 4,Discussion 6.4 MBA,2022-04-17,None,Schoolwork,4/12/2022,False
@@ -21,3 +21,4 @@ ID,Task Name,Due Date,Notes,Label,Created,Complete
 20,Put in time for the week,2022-04-15,Quickbooks,Work,04/14/22,True
 21,Final Exam MBA662,2022-04-24,ProctorU 7:30 pm,Schoolwork,04/16/22,False
 22,Email Matt about Time off,2022-04-17,Look at teams message from Matt,Work,04/17/22,False
+23,Get new one card,2022-04-29,Contact OneStop,Personal,04/17/22,False
