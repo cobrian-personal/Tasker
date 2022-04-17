@@ -7,18 +7,26 @@ from termcolor import colored
 
 def taskEntry(taskList):    
     print()
+    print(colored("Type 'c' for cancel at any time.", "green"))
+    print()
     print("When is the task due to be completed?\n")
     menuOptions = ["Today", "Other", "Cancel"]
     menu = TerminalMenu(menuOptions)
     entry = menu.show()
-
+    
     if entry==0:
         date = datetime.date.today().strftime("%m/%d/%y")
     elif entry==1:
         date = input("Input a date in the format MM/DD/YY: ")
-        x = date.split('/')
-        date = datetime.datetime(int(x[2]),int(x[0]),int(x[1]))
-        date = date.strftime("%m/%d/%y")
+        if date.lower() == 'c':
+            return taskList
+        try:
+            x = date.split('/')
+            date = datetime.datetime(int(x[2]),int(x[0]),int(x[1]))
+            date = date.strftime("%m/%d/%y")
+        except:
+            print("Invalid date format... Cancelling...")
+            return taskList
     elif entry==2:
         print()
         print("==================================================================================================================================")
@@ -26,11 +34,22 @@ def taskEntry(taskList):
         return taskList
     
     title = input("Give the task a name: ")
-    menuOptions1 = ["Schoolwork", "Work", "Leisure", "Personal", "Other"]
+    if title.lower() == 'c':
+        print("Cancelling...")
+        return taskList
+    menuOptions1 = ["Schoolwork", "Work", "Leisure", "Personal", "Other", "Cancel"]
     menu1 = TerminalMenu(menuOptions1)
     entry1 = menu1.show()
+    if entry1 == len(menuOptions1) - 1:
+        print("Cancelling...")
+        return taskList
     label = menuOptions1[entry1]
     notes = input("Task Notes: ")
+    if notes.lower() == 'c':
+        print("Cancelling...")
+        return taskList
+    if notes == '':
+        notes = "No Notes Added"
     id = len(taskList.index) + 1
     created = datetime.date.today().strftime("%m/%d/%y")
     complete = False
@@ -84,7 +103,7 @@ def showUpcoming(taskList):
     today = datetime.date.today().strftime("%Y-%m-%d")
     print("Showing Tasks Due Today: (Cyan = IP, Green = Done)")
     print()
-    
+
     t2 = taskList[taskList["Due Date"] == today][taskList.Complete==False].filter(items=["Task Name", "Due Date", "Label", "Notes"])
     print(colored(t2,"cyan"))
     print()
