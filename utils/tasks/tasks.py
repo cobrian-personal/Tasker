@@ -82,8 +82,11 @@ def showTasks(taskList):
     
 def showUpcoming(taskList):
     today = datetime.date.today().strftime("%Y-%m-%d")
+    print("Showing Tasks Due Today: (Cyan = IP, Green = Done)")
+    print()
+    
     t2 = taskList[taskList["Due Date"] == today][taskList.Complete==False].filter(items=["Task Name", "Due Date", "Label", "Notes"])
-    print(colored(t2,"yellow"))
+    print(colored(t2,"cyan"))
     print()
     t3 = taskList[taskList["Due Date"] == today][taskList.Complete==True].filter(items=["Task Name", "Due Date", "Label", "Notes"])
     print(colored(t3,"green"))
