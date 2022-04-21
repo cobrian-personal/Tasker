@@ -99,6 +99,27 @@ def showTasks(taskList):
     print("==================================================================================================================================")
     print()
     
+def showIncomplete(taskList):
+    taskList.columns = taskList.columns.str.strip()
+    taskList['Due Date'] = to_datetime(taskList['Due Date'])
+    taskList = taskList.sort_values(by=['Complete','Due Date'])
+    print('\nShowing tasks in order of due date (Green = Complete, Cyan = IP On Time, Red = Overdue)\n')
+    future = datetime.datetime.today() + datetime.timedelta(days=30)
+    past = datetime.datetime.today() - datetime.timedelta(days=30)
+    taskListtemp = taskList[(taskList["Due Date"] >= past) & (taskList["Due Date"]<=future)]
+    t = taskListtemp[taskListtemp.Complete == False].filter(items=["Task Name", "Due Date", "Label", "Notes","Complete"])
+    ta = t[(t["Due Date"] < datetime.datetime.today()-datetime.timedelta(days=1)) & (t.Complete == False)]
+    Overdue = ta.filter(items=["Task Name", "Due Date", "Label", "Notes"])
+    IPonTime = t[t["Due Date"] >= datetime.datetime.today()-datetime.timedelta(days=1)].filter(items=["Task Name", "Due Date", "Label", "Notes"])
+    print(colored(Overdue,"red"))
+    print()
+    print()
+    print(colored(IPonTime,"cyan"))
+    print()
+    print()
+    print("==================================================================================================================================")
+    print()
+    
 def showUpcoming(taskList):
     today = datetime.date.today().strftime("%Y-%m-%d")
     print("Showing Tasks Due Today: (Cyan = IP, Green = Done)")

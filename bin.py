@@ -40,7 +40,7 @@ def run():
     
     stopCode = True
     while stopCode:
-        menuOptions = ["View All Tasks", "Add a Task", "Tasks Due Today", "Mark Task Complete", "Quit"]
+        menuOptions = ["View All Tasks", "Show Incomplete Tasks", "Add a Task", "Tasks Due Today", "Mark Task Complete", "Quit"]
 
         #### TODO Edit Tasks, Goal Tracker, To do list, 
         menu = TerminalMenu(menuOptions)
@@ -49,12 +49,14 @@ def run():
         if entry == 0:
             tasks.showTasks(taskList)
         if entry == 1:
-            taskList = tasks.taskEntry(taskList)
+            tasks.showIncomplete(taskList)
         if entry == 2:
-            tasks.showUpcoming(taskList)
+            taskList = tasks.taskEntry(taskList)
         if entry == 3:
-            taskList = tasks.markComplete(taskList)
+            tasks.showUpcoming(taskList)
         if entry == 4:
+            taskList = tasks.markComplete(taskList)
+        if entry == 5:
             print("Saving Data...")
             archiveFiles.uploadTasks(taskList)
             stopCode = False
