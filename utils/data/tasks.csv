@@ -1,7 +1,7 @@
 ID,Task Name,Due Date,Notes,Label,Created,Complete
 1,Discussion 6.1 MBA,2022-04-17,None,Schoolwork,4/12/2022,True
-2,Discussion 6.2 MBA,2022-04-17,None,Schoolwork,4/12/2022,False
-3,Discussion 6.3 MBA,2022-04-17,None,Schoolwork,4/12/2022,False
+2,Discussion 6.2 MBA,2022-04-17,None,Schoolwork,4/12/2022,True
+3,Discussion 6.3 MBA,2022-04-17,None,Schoolwork,4/12/2022,True
 4,Discussion 6.4 MBA,2022-04-17,None,Schoolwork,4/12/2022,False
 5,MBA Homework 6,2022-04-17,Due Sunday or before test 2,Schoolwork,4/12/2022,False
 6,Get task manager to a working level,2022-04-12,Good work,Personal,4/12/2022,True
@@ -35,4 +35,4 @@ ID,Task Name,Due Date,Notes,Label,Created,Complete
 34,Clear Emails,2022-04-21,No Notes Added,Work,04/21/22,False
 35,Fix Walmart Harqen Field,2022-04-21,Make open field,Work,04/21/22,True
 36,Change Minecraft Server Billing,2022-04-21,Apex Hosting,Personal,04/21/22,False
-37,Work on CooperHealth Sync,2022-04-21,No Notes Added,Work,04/21/22,False
+37,Work on CooperHealth Sync,2022-04-21,No Notes Added,Work,04/21/22,True
