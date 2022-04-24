@@ -3,7 +3,7 @@ ID,Task Name,Due Date,Notes,Label,Created,Complete
 2,Discussion 6.2 MBA,2022-04-17,None,Schoolwork,4/12/2022,True
 3,Discussion 6.3 MBA,2022-04-17,None,Schoolwork,4/12/2022,True
 4,Discussion 6.4 MBA,2022-04-17,None,Schoolwork,4/12/2022,True
-5,MBA Homework 6,2022-04-17,Due Sunday or before test 2,Schoolwork,4/12/2022,False
+5,MBA Homework 6,2022-04-17,Due Sunday or before test 2,Schoolwork,4/12/2022,True
 6,Get task manager to a working level,2022-04-12,Good work,Personal,4/12/2022,True
 7,Run ASML Sync,2022-04-13,,Work,04/13/22,True
 8,Cooper Health GoLive,2022-05-09,Candidate and Job Sync,Work,04/13/22,False
@@ -37,4 +37,4 @@ ID,Task Name,Due Date,Notes,Label,Created,Complete
 36,Change Minecraft Server Billing,2022-04-21,Apex Hosting,Personal,04/21/22,False
 37,Work on CooperHealth Sync,2022-04-21,No Notes Added,Work,04/21/22,True
 38,Put in Off time on schedule,2022-04-23,No Notes Added,Work,04/23/22,False
-39,Optometrist Appointment,2022-03-25,EyeCare Associates CAHABA,Personal,04/23/22,False
+39,Optometrist Appointment,2022-04-25,EyeCare Associates CAHABA,Personal,04/23/22,False
