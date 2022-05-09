@@ -6,7 +6,7 @@ ID,Task Name,Due Date,Notes,Label,Created,Complete
 5,MBA Homework 6,2022-04-17,Due Sunday or before test 2,Schoolwork,4/12/2022,True
 6,Get task manager to a working level,2022-04-12,Good work,Personal,4/12/2022,True
 7,Run ASML Sync,2022-04-13,,Work,04/13/22,True
-8,Cooper Health GoLive,2022-05-09,Candidate and Job Sync,Work,04/13/22,False
+8,Cooper Health GoLive,2022-05-09,Candidate and Job Sync,Work,04/13/22,True
 9,Investigate Walmart Sync Failure,2022-04-13,None,Work,04/13/22,True
 10,Investigate Weathorford Task Timing,2022-04-13,Third sync not running?,Work,04/13/22,True
 11,Put in Time,2022-04-13,Quickbooks,Work,04/13/22,True
@@ -21,7 +21,7 @@ ID,Task Name,Due Date,Notes,Label,Created,Complete
 20,Put in time for the week,2022-04-15,Quickbooks,Work,04/14/22,True
 21,Final Exam MBA662,2022-04-24,ProctorU 7:30 pm,Schoolwork,04/16/22,True
 22,Email Matt about Time off,2022-04-17,Look at teams message from Matt,Work,04/17/22,True
-23,Get new one card,2022-04-29,Contact OneStop,Personal,04/17/22,False
+23,Get new one card,2022-04-29,Contact OneStop,Personal,04/17/22,True
 24,Dispute Godaddy charge,2022-04-18,No Notes Added,Personal,04/18/22,True
 25,Dispute planet fitness charge,2022-04-18,No Notes Added,Personal,04/18/22,True
 26,Call Pinkie,2022-04-19,Contest Fine,Personal,04/18/22,False
@@ -40,8 +40,11 @@ ID,Task Name,Due Date,Notes,Label,Created,Complete
 39,Optometrist Appointment,2022-04-25,EyeCare Associates CAHABA,Personal,04/23/22,True
 40,Put in time,2022-04-23,No Notes Added,Work,04/23/22,True
 41,Script updates for walmart,2022-04-25,matt and I solution,Work,04/25/22,True
-42,Look into walmart internals,2022-04-25,peter,Work,04/25/22,False
-43,Work on cooper health,2022-04-25,No Notes Added,Work,04/25/22,False
+42,Look into walmart internals,2022-04-25,peter,Work,04/25/22,True
+43,Work on cooper health,2022-04-25,No Notes Added,Work,04/25/22,True
 44,Meeting about Epiq,2022-04-25,Jonathan,Work,04/25/22,True
-45,change walmart timing,2022-04-25,8:30am + 5pm Central,Work,04/25/22,False
+45,change walmart timing,2022-04-25,8:30am + 5pm Central,Work,04/25/22,True
 46,Epiq GoLive,2022-05-09,Candidate and Job Sync,Work,04/25/22,False
+47,Finish Job mapping for CooperHealth,2022-05-07,No Notes Added,Work,05/07/22,True
+48,Finish Candidate Mapping for Cooperhealth,2022-05-07,No Notes Added,Work,05/07/22,True
+49,Build Framework for Epiq,2022-05-07,No Notes Added,Work,05/07/22,True
