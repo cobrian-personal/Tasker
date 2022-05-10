@@ -44,7 +44,12 @@ ID,Task Name,Due Date,Notes,Label,Created,Complete
 43,Work on cooper health,2022-04-25,No Notes Added,Work,04/25/22,True
 44,Meeting about Epiq,2022-04-25,Jonathan,Work,04/25/22,True
 45,change walmart timing,2022-04-25,8:30am + 5pm Central,Work,04/25/22,True
-46,Epiq GoLive,2022-05-09,Candidate and Job Sync,Work,04/25/22,False
+46,Epiq GoLive,2022-05-09,Candidate and Job Sync,Work,04/25/22,True
 47,Finish Job mapping for CooperHealth,2022-05-07,No Notes Added,Work,05/07/22,True
 48,Finish Candidate Mapping for Cooperhealth,2022-05-07,No Notes Added,Work,05/07/22,True
 49,Build Framework for Epiq,2022-05-07,No Notes Added,Work,05/07/22,True
+50,Fix Epiq Job and Candidate Upload,2022-05-09,See required field changes,Work,05/09/22,True
+51,Fix Cooperhealth Sync,2022-05-09,See Marty Email,Work,05/09/22,True
+52,Fix Epiq Sync 'Error 'Job Family'',2022-05-10,No Notes Added,Work,05/09/22,False
+53,Fix Epiq Candidate Fields,2022-05-10,No Notes Added,Work,05/09/22,False
+54,Check on Cooperhealth Sync,2022-05-10,See if Interviewers have been added to SR,Work,05/09/22,False
