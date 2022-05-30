@@ -1,79 +1,79 @@
-ID,Task Name,Due Date,Notes,Label,Created,Complete
-1,Discussion 6.1 MBA,2022-04-17,None,Schoolwork,4/12/2022,True
-2,Discussion 6.2 MBA,2022-04-17,None,Schoolwork,4/12/2022,True
-3,Discussion 6.3 MBA,2022-04-17,None,Schoolwork,4/12/2022,True
-4,Discussion 6.4 MBA,2022-04-17,None,Schoolwork,4/12/2022,True
-5,MBA Homework 6,2022-04-17,Due Sunday or before test 2,Schoolwork,4/12/2022,True
-6,Get task manager to a working level,2022-04-12,Good work,Personal,4/12/2022,True
-7,Run ASML Sync,2022-04-13,,Work,04/13/22,True
-8,Cooper Health GoLive,2022-05-09,Candidate and Job Sync,Work,04/13/22,True
-9,Investigate Walmart Sync Failure,2022-04-13,None,Work,04/13/22,True
-10,Investigate Weathorford Task Timing,2022-04-13,Third sync not running?,Work,04/13/22,True
-11,Put in Time,2022-04-13,Quickbooks,Work,04/13/22,True
-12,Fix Walmart Sync,2022-04-15,Failing on job creation,Work,04/14/22,True
-13,Look into Walmart candidate upload scripts,2022-04-15,Candidates that are internal but not marked as such need to be marked,Work,04/14/22,True
-14,Fix job upload to have missing fields,2022-04-15,"Position type, dept, dept id",Work,04/14/22,True
-15,Figure out APIs w/ peter,2022-04-14,None,Work,04/14/22,True
-16,Make Candidates 'New',2022-04-14,Walmart cand. need to go in as new,Work,04/14/22,True
-17,Add carolyn to email list,2022-04-15,Jon message,Work,04/14/22,True
-18,Pay Power Bill,2022-04-14,ALP,Personal,04/14/22,True
-19,Pay Car Payment,2022-04-14,Yes,Personal,04/14/22,True
-20,Put in time for the week,2022-04-15,Quickbooks,Work,04/14/22,True
-21,Final Exam MBA662,2022-04-24,ProctorU 7:30 pm,Schoolwork,04/16/22,True
-22,Email Matt about Time off,2022-04-17,Look at teams message from Matt,Work,04/17/22,True
-23,Get new one card,2022-04-29,Contact OneStop,Personal,04/17/22,True
-24,Dispute Godaddy charge,2022-04-18,No Notes Added,Personal,04/18/22,True
-25,Dispute planet fitness charge,2022-04-18,No Notes Added,Personal,04/18/22,True
-26,Call Pinkie,2022-04-19,Contest Fine,Personal,04/18/22,False
-27,Call First State,2022-04-19,Get billing account for couch changed to sofi,Personal,04/18/22,False
-28,Rerun Walmart Syncs,2022-04-18,No Notes Added,Work,04/18/22,True
-29,Work on CooperHealth sync,2022-04-19,No Notes Added,Work,04/19/22,True
-30,Pay copay,2022-04-19,No Notes Added,Personal,04/19/22,False
-31,Fix Walmart Candidates,2022-04-20,No Notes Added,Work,04/20/22,True
-32,Add branch to walmart dag,2022-04-20,Per Yadullah Email,Work,04/20/22,True
-33,Review Walmart failed jobs,2022-04-20,per jon email,Work,04/20/22,True
-34,Clear Emails,2022-04-21,No Notes Added,Work,04/21/22,True
-35,Fix Walmart Harqen Field,2022-04-21,Make open field,Work,04/21/22,True
-36,Change Minecraft Server Billing,2022-04-21,Apex Hosting,Personal,04/21/22,False
-37,Work on CooperHealth Sync,2022-04-21,No Notes Added,Work,04/21/22,True
-38,Put in Off time on schedule,2022-04-23,No Notes Added,Work,04/23/22,True
-39,Optometrist Appointment,2022-04-25,EyeCare Associates CAHABA,Personal,04/23/22,True
-40,Put in time,2022-04-23,No Notes Added,Work,04/23/22,True
-41,Script updates for walmart,2022-04-25,matt and I solution,Work,04/25/22,True
-42,Look into walmart internals,2022-04-25,peter,Work,04/25/22,True
-43,Work on cooper health,2022-04-25,No Notes Added,Work,04/25/22,True
-44,Meeting about Epiq,2022-04-25,Jonathan,Work,04/25/22,True
-45,change walmart timing,2022-04-25,8:30am + 5pm Central,Work,04/25/22,True
-46,Epiq GoLive,2022-05-09,Candidate and Job Sync,Work,04/25/22,True
-47,Finish Job mapping for CooperHealth,2022-05-07,No Notes Added,Work,05/07/22,True
-48,Finish Candidate Mapping for Cooperhealth,2022-05-07,No Notes Added,Work,05/07/22,True
-49,Build Framework for Epiq,2022-05-07,No Notes Added,Work,05/07/22,True
-50,Fix Epiq Job and Candidate Upload,2022-05-09,See required field changes,Work,05/09/22,True
-51,Fix Cooperhealth Sync,2022-05-09,See Marty Email,Work,05/09/22,True
-52,Fix Epiq Sync 'Error 'Job Family'',2022-05-10,No Notes Added,Work,05/09/22,True
-53,Fix Epiq Candidate Fields,2022-05-10,No Notes Added,Work,05/09/22,True
-54,Check on Cooperhealth Sync,2022-05-10,See if Interviewers have been added to SR,Work,05/09/22,True
-55,Look into Walmart Mapping Issue,2022-05-11,Jonathan teams msg,Work,05/11/22,True
-56,See why Cooperhealth candidates failed,2022-05-11,Janakan Message,Work,05/11/22,True
-57,Interview with new candidate,2022-05-11,12pm,Work,05/11/22,True
-58,Prep for new candidate interview,2022-05-11,Cara Lambert Teams Message,Work,05/11/22,True
-59,Update LinkedIn,2022-05-11,Masters/ Cielo change etc,Personal,05/11/22,True
-60,Fix email contacts for cooperhealth,2022-05-11,No Notes Added,Work,05/11/22,True
-61,Fix email contacts for Epiq,2022-05-11,No Notes Added,Work,05/11/22,True
-62,Fix timing for Epiq,2022-05-11,No Notes Added,Work,05/11/22,True
-63,Fix dr.squatch stuff,2022-05-16,No Notes Added,Personal,05/16/22,True
-64,Fix cooperhealth applicants,2022-05-16,janakan email and message,Work,05/16/22,True
-65,Meet with Jaisri,2022-05-16,Asurion APAC,Work,05/16/22,True
-66,Work on Cornerstone User sync,2022-05-16,Bethany and Matt messages,Work,05/16/22,True
-67,Make sure candidate fields are good,2022-05-16,"Fields filling in SR, look to Walmart as example",Work,05/16/22,True
-68,Investigate Epiq Issue,2022-05-16,Josh Layne Email,Work,05/16/22,True
-69,Change Cielo Password,2022-05-16,Email,Work,05/16/22,False
-70,Investigate Epiq Jobs,2022-05-17,Josh Email,Work,05/17/22,True
-71,Make sure cooperhealth jobs went on,2022-05-17,report to janakan,Work,05/17/22,True
-72,Start looking into Cornerstone,2022-05-17,No Notes Added,Work,05/17/22,True
-73,Get Asurion SR access,2022-05-17,Bethany? Or jon,Work,05/17/22,True
-74,Investigate Cooperhealth,2022-05-18,Files not downloading?,Work,05/18/22,True
-75,Make cooperhealth whole,2022-05-18,manual sync jobs and candidates,Work,05/18/22,True
-76,Clear Jira tickets,2022-05-18,"552, 539",Work,05/18/22,True
-77,Add Cielo Goals,2022-05-18,Robin Email,Work,05/18/22,False
-78,Map Epiq Position Type,2022-05-18,No Notes Added,Work,05/18/22,True
+ID,Task Name,Due Date,Notes,Label,Created,Complete,Completed Date
+1,Discussion 6.1 MBA,2022-04-17,None,Schoolwork,4/12/2022,True,
+2,Discussion 6.2 MBA,2022-04-17,None,Schoolwork,4/12/2022,True,
+3,Discussion 6.3 MBA,2022-04-17,None,Schoolwork,4/12/2022,True,
+4,Discussion 6.4 MBA,2022-04-17,None,Schoolwork,4/12/2022,True,
+5,MBA Homework 6,2022-04-17,Due Sunday or before test 2,Schoolwork,4/12/2022,True,
+6,Get task manager to a working level,2022-04-12,Good work,Personal,4/12/2022,True,
+7,Run ASML Sync,2022-04-13,,Work,04/13/22,True,
+8,Cooper Health GoLive,2022-05-09,Candidate and Job Sync,Work,04/13/22,True,
+9,Investigate Walmart Sync Failure,2022-04-13,None,Work,04/13/22,True,
+10,Investigate Weathorford Task Timing,2022-04-13,Third sync not running?,Work,04/13/22,True,
+11,Put in Time,2022-04-13,Quickbooks,Work,04/13/22,True,
+12,Fix Walmart Sync,2022-04-15,Failing on job creation,Work,04/14/22,True,
+13,Look into Walmart candidate upload scripts,2022-04-15,Candidates that are internal but not marked as such need to be marked,Work,04/14/22,True,
+14,Fix job upload to have missing fields,2022-04-15,"Position type, dept, dept id",Work,04/14/22,True,
+15,Figure out APIs w/ peter,2022-04-14,None,Work,04/14/22,True,
+16,Make Candidates 'New',2022-04-14,Walmart cand. need to go in as new,Work,04/14/22,True,
+17,Add carolyn to email list,2022-04-15,Jon message,Work,04/14/22,True,
+18,Pay Power Bill,2022-04-14,ALP,Personal,04/14/22,True,
+19,Pay Car Payment,2022-04-14,Yes,Personal,04/14/22,True,
+20,Put in time for the week,2022-04-15,Quickbooks,Work,04/14/22,True,
+21,Final Exam MBA662,2022-04-24,ProctorU 7:30 pm,Schoolwork,04/16/22,True,
+22,Email Matt about Time off,2022-04-17,Look at teams message from Matt,Work,04/17/22,True,
+23,Get new one card,2022-04-29,Contact OneStop,Personal,04/17/22,True,
+24,Dispute Godaddy charge,2022-04-18,No Notes Added,Personal,04/18/22,True,
+25,Dispute planet fitness charge,2022-04-18,No Notes Added,Personal,04/18/22,True,
+26,Call Pinkie,2022-04-19,Contest Fine,Personal,04/18/22,False,
+27,Call First State,2022-04-19,Get billing account for couch changed to sofi,Personal,04/18/22,False,
+28,Rerun Walmart Syncs,2022-04-18,No Notes Added,Work,04/18/22,True,
+29,Work on CooperHealth sync,2022-04-19,No Notes Added,Work,04/19/22,True,
+30,Pay copay,2022-04-19,No Notes Added,Personal,04/19/22,False,
+31,Fix Walmart Candidates,2022-04-20,No Notes Added,Work,04/20/22,True,
+32,Add branch to walmart dag,2022-04-20,Per Yadullah Email,Work,04/20/22,True,
+33,Review Walmart failed jobs,2022-04-20,per jon email,Work,04/20/22,True,
+34,Clear Emails,2022-04-21,No Notes Added,Work,04/21/22,True,
+35,Fix Walmart Harqen Field,2022-04-21,Make open field,Work,04/21/22,True,
+36,Change Minecraft Server Billing,2022-04-21,Apex Hosting,Personal,04/21/22,False,
+37,Work on CooperHealth Sync,2022-04-21,No Notes Added,Work,04/21/22,True,
+38,Put in Off time on schedule,2022-04-23,No Notes Added,Work,04/23/22,True,
+39,Optometrist Appointment,2022-04-25,EyeCare Associates CAHABA,Personal,04/23/22,True,
+40,Put in time,2022-04-23,No Notes Added,Work,04/23/22,True,
+41,Script updates for walmart,2022-04-25,matt and I solution,Work,04/25/22,True,
+42,Look into walmart internals,2022-04-25,peter,Work,04/25/22,True,
+43,Work on cooper health,2022-04-25,No Notes Added,Work,04/25/22,True,
+44,Meeting about Epiq,2022-04-25,Jonathan,Work,04/25/22,True,
+45,change walmart timing,2022-04-25,8:30am + 5pm Central,Work,04/25/22,True,
+46,Epiq GoLive,2022-05-09,Candidate and Job Sync,Work,04/25/22,True,
+47,Finish Job mapping for CooperHealth,2022-05-07,No Notes Added,Work,05/07/22,True,
+48,Finish Candidate Mapping for Cooperhealth,2022-05-07,No Notes Added,Work,05/07/22,True,
+49,Build Framework for Epiq,2022-05-07,No Notes Added,Work,05/07/22,True,
+50,Fix Epiq Job and Candidate Upload,2022-05-09,See required field changes,Work,05/09/22,True,
+51,Fix Cooperhealth Sync,2022-05-09,See Marty Email,Work,05/09/22,True,
+52,Fix Epiq Sync 'Error 'Job Family'',2022-05-10,No Notes Added,Work,05/09/22,True,
+53,Fix Epiq Candidate Fields,2022-05-10,No Notes Added,Work,05/09/22,True,
+54,Check on Cooperhealth Sync,2022-05-10,See if Interviewers have been added to SR,Work,05/09/22,True,
+55,Look into Walmart Mapping Issue,2022-05-11,Jonathan teams msg,Work,05/11/22,True,
+56,See why Cooperhealth candidates failed,2022-05-11,Janakan Message,Work,05/11/22,True,
+57,Interview with new candidate,2022-05-11,12pm,Work,05/11/22,True,
+58,Prep for new candidate interview,2022-05-11,Cara Lambert Teams Message,Work,05/11/22,True,
+59,Update LinkedIn,2022-05-11,Masters/ Cielo change etc,Personal,05/11/22,True,
+60,Fix email contacts for cooperhealth,2022-05-11,No Notes Added,Work,05/11/22,True,
+61,Fix email contacts for Epiq,2022-05-11,No Notes Added,Work,05/11/22,True,
+62,Fix timing for Epiq,2022-05-11,No Notes Added,Work,05/11/22,True,
+63,Fix dr.squatch stuff,2022-05-16,No Notes Added,Personal,05/16/22,True,
+64,Fix cooperhealth applicants,2022-05-16,janakan email and message,Work,05/16/22,True,
+65,Meet with Jaisri,2022-05-16,Asurion APAC,Work,05/16/22,True,
+66,Work on Cornerstone User sync,2022-05-16,Bethany and Matt messages,Work,05/16/22,True,
+67,Make sure candidate fields are good,2022-05-16,"Fields filling in SR, look to Walmart as example",Work,05/16/22,True,
+68,Investigate Epiq Issue,2022-05-16,Josh Layne Email,Work,05/16/22,True,
+69,Change Cielo Password,2022-05-29,Email,Work,05/16/22,True,05/28/22
+70,Investigate Epiq Jobs,2022-05-17,Josh Email,Work,05/17/22,True,
+71,Make sure cooperhealth jobs went on,2022-05-17,report to janakan,Work,05/17/22,True,
+72,Start looking into Cornerstone,2022-05-17,No Notes Added,Work,05/17/22,True,
+73,Get Asurion SR access,2022-05-17,Bethany? Or jon,Work,05/17/22,True,
+74,Investigate Cooperhealth,2022-05-18,Files not downloading?,Work,05/18/22,True,
+75,Make cooperhealth whole,2022-05-18,manual sync jobs and candidates,Work,05/18/22,True,
+76,Clear Jira tickets,2022-05-18,"552, 539",Work,05/18/22,True,
+77,Add Cielo Goals,2022-05-18,Robin Email,Work,05/18/22,False,
+78,Map Epiq Position Type,2022-05-18,No Notes Added,Work,05/18/22,True,

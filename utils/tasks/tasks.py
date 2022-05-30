@@ -53,6 +53,7 @@ def taskEntry(taskList):
     id = len(taskList.index) + 1
     created = datetime.date.today().strftime("%m/%d/%y")
     complete = False
+    completeDate = None
 
     newFrame = {
                 "ID":id,
@@ -61,7 +62,8 @@ def taskEntry(taskList):
                 "Notes" : notes,
                 "Label" : label,
                 "Created" : created,
-                "Complete" : complete
+                "Complete" : complete,
+                "Completed Date" : completeDate
                 }
     
     taskList.columns = taskList.columns.str.strip()
@@ -93,7 +95,7 @@ def showTasks(taskList):
     print(colored(IPonTime,"cyan"))
     print()
     print()
-    Done = taskListtemp[taskListtemp.Complete == True].filter(items=["Task Name", "Due Date", "Label", "Notes"])
+    Done = taskListtemp[taskListtemp.Complete == True].filter(items=["Task Name", "Due Date", "Completed Date", "Label"])
     print(colored(Done,"green"))
     print()
     print("==================================================================================================================================")
@@ -154,6 +156,35 @@ def markComplete(taskList):
     for i in range(len(t["ID"])):
         if t["ID"][i] == id:
             t["Complete"][i] = True
+            t["Completed Date"][i] = datetime.datetime.today().strftime("%m/%d/%y")
+
+    # print(t)
+    print()
+    print("==================================================================================================================================")
+    print()
+
+    return DataFrame(t)
+
+def moveToToday(taskList):
+    print()
+    print("Tasks that are incomplete: \n")
+    options =["Back"]
+    t = taskList.to_dict('list')
+    count = 0
+    for i in t["Task Name"]:
+        if t["Complete"][count] == False:
+            options = [str(t["ID"][count]) + " : " + i + " : " + t["Label"][count]] + options
+        count+=1    
+    menu = TerminalMenu(options)
+    entry = menu.show()
+
+    if entry == len(options) -1:
+        return taskList
+
+    id = int(options[entry].split(" : ")[0].strip())
+    for i in range(len(t["ID"])):
+        if t["ID"][i] == id:
+            t["Due Date"][i] = datetime.date.today().strftime("%m/%d/%y")
 
     # print(t)
     print()
@@ -163,3 +194,28 @@ def markComplete(taskList):
     return DataFrame(t)
     
 
+def showScrumMenu(taskList):
+    print()
+    print("Showing the Scrum Menu")
+    print()
+    print("Items Completed Yesterday")
+    print()
+
+    yesterday = datetime.date.today() - datetime.timedelta(days=1)
+    yesterday = yesterday.strftime("%m/%d/%y")
+    
+    t = taskList[taskList["Completed Date"] == yesterday][taskList["Label"]=="Work"].filter(items=["Task Name"])
+    print(colored(t,"yellow"))
+
+    print()
+    print("Items Due Today")
+    today = datetime.date.today().strftime("%Y-%m-%d")
+    print()
+    t2 = taskList[taskList["Due Date"] == today][taskList.Complete==False][taskList.Label=="Work"].filter(items=["Task Name"])
+    print(colored(t2,"cyan"))
+    print()
+
+    
+    print()
+    print("==================================================================================================================================")
+    print()
