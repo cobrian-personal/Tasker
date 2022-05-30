@@ -77,3 +77,6 @@ ID,Task Name,Due Date,Notes,Label,Created,Complete,Completed Date
 76,Clear Jira tickets,2022-05-18,"552, 539",Work,05/18/22,True,
 77,Add Cielo Goals,2022-05-18,Robin Email,Work,05/18/22,False,
 78,Map Epiq Position Type,2022-05-18,No Notes Added,Work,05/18/22,True,
+79,Add Walmart Tags,2022-05-30,No Notes Added,Work,05/30/22,True,05/30/22
+80,Investigate User Sync info ,2022-05-30,Dayforce part,Work,05/30/22,False,
+81,Write code for user sync,2022-05-30,No Notes Added,Work,05/30/22,False,
