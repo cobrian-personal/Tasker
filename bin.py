@@ -52,14 +52,19 @@ def run():
             tasks.showIncomplete(taskList)
         if entry == 2:
             taskList = tasks.taskEntry(taskList)
+            archiveFiles.uploadTasks(taskList)
         if entry == 3:
             tasks.showUpcoming(taskList)
         if entry == 4:
             taskList = tasks.markComplete(taskList)
+            archiveFiles.uploadTasks(taskList)
         if entry == 5:
             taskList = tasks.moveToToday(taskList)
+            archiveFiles.uploadTasks(taskList)
+
         if entry == 6:
             tasks.showScrumMenu(taskList)
+
         if entry == 7:
             print("Saving Data...")
             archiveFiles.uploadTasks(taskList)
