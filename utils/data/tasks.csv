@@ -28,13 +28,13 @@ ID,Task Name,Due Date,Notes,Label,Created,Complete,Completed Date
 27,Call First State,2022-06-01,Get billing account for couch changed to sofi,Personal,04/18/22,True,06/06/22
 28,Rerun Walmart Syncs,2022-04-18,No Notes Added,Work,04/18/22,True,
 29,Work on CooperHealth sync,2022-04-19,No Notes Added,Work,04/19/22,True,
-30,Pay copay,2022-06-06,No Notes Added,Personal,04/19/22,False,
+30,Pay copay,2022-06-08,No Notes Added,Personal,04/19/22,False,
 31,Fix Walmart Candidates,2022-04-20,No Notes Added,Work,04/20/22,True,
 32,Add branch to walmart dag,2022-04-20,Per Yadullah Email,Work,04/20/22,True,
 33,Review Walmart failed jobs,2022-04-20,per jon email,Work,04/20/22,True,
 34,Clear Emails,2022-04-21,No Notes Added,Work,04/21/22,True,
 35,Fix Walmart Harqen Field,2022-04-21,Make open field,Work,04/21/22,True,
-36,Change Minecraft Server Billing,2022-06-01,Apex Hosting,Personal,04/21/22,False,
+36,Change Minecraft Server Billing,2022-06-08,Apex Hosting,Personal,04/21/22,False,
 37,Work on CooperHealth Sync,2022-04-21,No Notes Added,Work,04/21/22,True,
 38,Put in Off time on schedule,2022-04-23,No Notes Added,Work,04/23/22,True,
 39,Optometrist Appointment,2022-04-25,EyeCare Associates CAHABA,Personal,04/23/22,True,
@@ -75,7 +75,7 @@ ID,Task Name,Due Date,Notes,Label,Created,Complete,Completed Date
 74,Investigate Cooperhealth,2022-05-18,Files not downloading?,Work,05/18/22,True,
 75,Make cooperhealth whole,2022-05-18,manual sync jobs and candidates,Work,05/18/22,True,
 76,Clear Jira tickets,2022-05-18,"552, 539",Work,05/18/22,True,
-77,Add Cielo Goals,2022-06-06,Robin Email,Work,05/18/22,False,
+77,Add Cielo Goals,2022-06-06,Robin Email,Work,05/18/22,True,06/08/22
 78,Map Epiq Position Type,2022-05-18,No Notes Added,Work,05/18/22,True,
 79,Add Walmart Tags,2022-05-30,No Notes Added,Work,05/30/22,True,05/30/22
 80,Investigate User Sync info ,2022-05-30,Dayforce part,Work,05/30/22,True,05/30/22
@@ -90,3 +90,5 @@ ID,Task Name,Due Date,Notes,Label,Created,Complete,Completed Date
 89,Fix CBB User Sync,2022-06-06,Activate Candidates and fix language,Work,06/06/22,True,06/06/22
 90,CBB Config Sync GoLive,2022-06-06,EOD,Work,06/06/22,True,06/06/22
 91,Add Dayforce API call to CBB User Sync,2022-06-10,Bethany message,Work,06/06/22,False,
+92,Fix Config Sync error in prod,2022-06-07,No Notes Added,Work,06/06/22,True,06/07/22
+93,Memoize Config Sync,2022-06-08,Help Runtime,Work,06/08/22,True,06/08/22
