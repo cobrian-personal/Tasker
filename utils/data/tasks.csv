@@ -84,8 +84,8 @@ ID,Task Name,Due Date,Notes,Label,Created,Complete,Completed Date
 83,Look into Cooperhealth Req failure,2022-06-01,rec 61493,Work,06/01/22,True,06/01/22
 84,Fix Walmart tags sync,2022-06-01,No Notes Added,Work,06/01/22,True,06/01/22
 85,Encrypt Walmart Keys,2022-06-07,Marty fernet encryption,Work,06/02/22,True,06/06/22
-86,Clean up User and Config Sync code,2022-06-10,Make code repeatable/ remove api keys,Work,06/06/22,False,
-87,Fix Walmart Sync,2022-06-10,Make API keys encrypted/ etc,Work,06/06/22,False,
+86,Clean up User and Config Sync code,2022-06-10,Make code repeatable/ remove api keys,Work,06/06/22,True,06/10/22
+87,Fix Walmart Sync,2022-06-10,Make API keys encrypted/ etc,Work,06/06/22,True,06/10/22
 88,Add historical tags for walmart,2022-06-10,Talk to jonathan,Work,06/06/22,False,
 89,Fix CBB User Sync,2022-06-06,Activate Candidates and fix language,Work,06/06/22,True,06/06/22
 90,CBB Config Sync GoLive,2022-06-06,EOD,Work,06/06/22,True,06/06/22
