@@ -89,7 +89,7 @@ ID,Task Name,Due Date,Notes,Label,Created,Complete,Completed Date
 88,Add historical tags for walmart,2022-06-13,Talk to jonathan,Work,6/6/2022,True,6/13/2022
 89,Fix CBB User Sync,2022-06-06,Activate Candidates and fix language,Work,6/6/2022,True,6/6/2022
 90,CBB Config Sync GoLive,2022-06-06,EOD,Work,6/6/2022,True,6/6/2022
-91,Add Dayforce API call to CBB User Sync,2022-07-08,Bethany message,Work,6/6/2022,False,
+91,Add Dayforce API call to CBB User Sync,2022-07-08,Bethany message,Work,6/6/2022,True,07/05/22
 92,Fix Config Sync error in prod,2022-06-07,No Notes Added,Work,6/6/2022,True,6/7/2022
 93,Memoize Config Sync,2022-06-08,Help Runtime,Work,6/8/2022,True,6/8/2022
 94,Fill In errors in historical WM tags,2022-06-13,No Notes Added,Work,6/13/2022,True,6/13/2022
@@ -104,9 +104,13 @@ ID,Task Name,Due Date,Notes,Label,Created,Complete,Completed Date
 103,Solidigm Data Migration,2022-06-29,No Notes Added,Work,6/28/2022,True,6/30/2022
 104,(TENTATIVE) Add API call to User Sync,2022-06-28,CBB User sync,Work,6/28/2022,True,6/28/2022
 105,System Role Meeting,2022-06-28,CBB,Work,6/28/2022,True,6/28/2022
-106,Archive unused Config fields,2022-07-08,CBB Config Sync,Work,6/28/2022,False,
-107,Safeguard API calls in User and Config Sync,2022-07-08,CBB,Work,6/28/2022,False,
+106,Archive unused Config fields,2022-07-08,CBB Config Sync,Work,6/28/2022,True,07/07/22
+107,Safeguard API calls in User and Config Sync,2022-07-08,CBB,Work,6/28/2022,True,07/07/22
 108,Update System role mapping and run user sync,2022-06-28,No Notes Added,Work,6/28/2022,True,6/28/2022
 109,Run Epiq Sync,2022-07-01,Jonathan request,Work,07/01/22,True,07/05/22
 110,"Epiq: Add ""Cost Center"" field to the sync mapping",2022-07-08,jira,Work,07/01/22,False,
 111,Part time work interest meeting,2022-07-01,1pm,Personal,07/01/22,True,07/05/22
+112,Reach out about Solidigm DM,2022-07-06,[11:35 AM] Matt Davis,Work,07/05/22,False,
+113,HTE Sync to Phenom,2022-07-12,Jonathan Email (Flagged),Work,07/05/22,False,
+114,HPE Job Sync ,2022-07-06,No Notes Added,Work,07/06/22,True,07/06/22
+115,Verify validity of config sync,2022-07-07,Bethany Request,Work,07/07/22,True,07/07/22
